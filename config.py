@@ -4,6 +4,7 @@ from os import getenv
 API_ID = int(getenv("API_ID", "20837006"))
 API_HASH = getenv("API_HASH", "b7c5f5ea03b19b1687cddf9eceaf69aa")
 BOT_TOKEN = getenv("BOT_TOKEN", "5669078885:AAFV796FLMIWGVbw0uhV9RVZa9IpscaB_kg")
+BOT_USERNAME = getenv("BOT_USERNAME", "HOTX_CHAT_BOT")
 OWNER_ID = int(getenv("OWNER_ID", "5673255098"))
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5673255098").split()))
 MONGO_URL = getenv("MONGO_URL", "mongodb+srv://abhiroy989186:9relnjjmd3neu1Nt@cluster0.ad2kusl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
