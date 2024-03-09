@@ -3,7 +3,7 @@ from typing import Dict, Union
 
 from motor.motor_asyncio import AsyncIOMotorClient as MongoCli
 
-from config import MONGO_URI as MONGO_DB_URI
+from config import MONGO_URL as MONGO_DB_URI
 
 mongo = MongoCli(MONGO_DB_URI)
 db = mongo.Waifu
