@@ -3,7 +3,7 @@ from pyrogram import filters
 from Waifu import Waifu, userbot
 from config import SUDO_USERS
 
-BOT_LIST = ["WaifuMusicBot"]
+BOT_LIST = ["HOTX_CHAT_BOT"]
 
 
 
