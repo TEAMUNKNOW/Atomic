@@ -16,4 +16,5 @@ motor
 lexica-api
 bs4
 aiohttp==3.9.1
+bs4
 
