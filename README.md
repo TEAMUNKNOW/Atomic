@@ -17,4 +17,4 @@
 
 <h3 align="center">ᴛʜᴀɴᴋs ᴛᴏ ᴅᴀxxᴛᴇᴀᴍ
 <h3 align="center">
-<a href="https://github.com/DaxxTeam"> <img src="https://img.shields.io/badge/DaxxTeam-black?style=for-the-badge&logo=github" alt="DaxxTeam" /> </a> </h3>
+<a href="https://github.com/Sumit0045"> <img src="https://img.shields.io/badge/Sumit0045-black?style=for-the-badge&logo=github" alt="Sumit0045" /> </a> </h3>
