@@ -74,7 +74,7 @@ back_buttons  = [[
 waifu = random.choice(TheChampu)
 @Waifu.on_message(filters.command("start"))
 async def start(_,message):
-  await message.reply_videp(video=waifu,
+  await message.reply_video(video=waifu,
                             caption=start_txt.format(message.from_user.mention),reply_markup=button)
 
 
