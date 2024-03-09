@@ -48,7 +48,7 @@ async def play(_, message):
     global useer    
     chat_id = message.chat.id  
     user_name = message.from_user.mention                
-    msg = await message.reply("**🔎 sᴇᴀʀᴄʜɪɴɢ...**") 
+    msg = await message.reply("🫦") 
     try:
         user = await userbot.get_me()
         await _.get_chat_member(chat_id, user.id)
@@ -63,7 +63,7 @@ async def play(_, message):
         except UserAlreadyParticipant:            
             pass
         except Exception as e:
-            await msg.edit_text(f"**ᴘʟᴇᴀsᴇ ᴍᴀɴᴜᴀʟʟʏ ᴀᴅᴅ ᴀssɪsᴛᴀɴᴛ ᴏʀ ᴄᴏɴᴛᴀᴄᴛ [sᴜᴍɪᴛ ʏᴀᴅᴀᴠ](https://t.me/AnonDeveloper)** ")
+            await msg.edit_text(f"**ᴘʟᴇᴀsᴇ ᴍᴀɴᴜᴀʟʟʏ ᴀᴅᴅ ᴀssɪsᴛᴀɴᴛ ᴏʀ ᴄᴏɴᴛᴀᴄᴛ [ᴄʜᴧᴍᴘᴜ](https://t.me/itsMeShivanshu)** ")
                             
     audio = ((message.reply_to_message.audio or message.reply_to_message.voice) if message.reply_to_message else None)
    
@@ -87,7 +87,7 @@ async def play(_, message):
         if len(message.command) < 2:
             await msg.edit_text("💌 **ᴜsᴀɢᴇ: /ᴘʟᴀʏ ɢɪᴠᴇ ᴀ ᴛɪᴛʟᴇ sᴏɴɢ ᴛᴏ ᴘʟᴀʏ ᴍᴜsɪᴄ.**")
         else:
-            await msg.edit_text("▓▓▓▓▓▓▓▓▓▓▓100%\n\n**⇆ ᴘʀᴏᴄᴇssɪɴɢ...**")
+            await msg.edit_text("ᴡᴀɪᴛ ʙᴧʙʏ...💋✨")
                 
         query = message.text.split(None, 1)[1]
             
@@ -160,7 +160,7 @@ async def vplay(_, message):
     global useer    
     chat_id = message.chat.id  
     user_name = message.from_user.mention                
-    msg = await message.reply("**🔎 sᴇᴀʀᴄʜɪɴɢ...**") 
+    msg = await message.reply("🫦") 
     try:
         user = await userbot.get_me()
         await _.get_chat_member(chat_id, user.id)
@@ -168,14 +168,14 @@ async def vplay(_, message):
         try:
             invitelink = await _.export_chat_invite_link(chat_id)
         except Exception:    
-            await msg.edit_text("**» ᴀᴅᴅ ᴍᴇ ᴀs ᴀᴅᴍɪɴ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ғɪʀsᴛ.**")
+            await msg.edit_text("**» ᴀᴅᴅ ᴍᴇ ʙᴧʙʏ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ғɪʀsᴛ.**")
         try:
             await userbot.join_chat(invitelink)
             await userbot.send_message(message.chat.id, text="** ✅ ᴀssɪsᴛᴀɴᴛ ᴊᴏɪɴᴇᴅ ᴛʜɪs ɢʀᴏᴜᴘ ғᴏʀ ᴘʟᴀʏ ᴍᴜsɪᴄ.**")
         except UserAlreadyParticipant:            
             pass
         except Exception as e:
-            await msg.edit_text(f"**ᴘʟᴇᴀsᴇ ᴍᴀɴᴜᴀʟʟʏ ᴀᴅᴅ ᴀssɪsᴛᴀɴᴛ ᴏʀ ᴄᴏɴᴛᴀᴄᴛ [sᴜᴍɪᴛ ʏᴀᴅᴀᴠ](https://t.me/AnonDeveloper)** ")
+            await msg.edit_text(f"**ᴘʟᴇᴀsᴇ ᴍᴀɴᴜᴀʟʟʏ ᴀᴅᴅ ᴀssɪsᴛᴀɴᴛ ᴏʀ ᴄᴏɴᴛᴀᴄᴛ [ᴄʜᴧᴍᴘᴜ](https://t.me/itsMeShivanshu)** ")
                             
     video = (message.reply_to_message.video if message.reply_to_message else None)
    
@@ -199,7 +199,7 @@ async def vplay(_, message):
         if len(message.command) < 2:
             await msg.edit_text("💌 **ᴜsᴀɢᴇ: /vᴘʟᴀʏ ɢɪᴠᴇ ᴀ ᴛɪᴛʟᴇ sᴏɴɢ ᴛᴏ ᴘʟᴀʏ ᴍᴜsɪᴄ.**")
         else:
-            await msg.edit_text("▓▓▓▓▓▓▓▓▓▓▓100%\n\n**⇆ ᴘʀᴏᴄᴇssɪɴɢ...**")
+            await msg.edit_text("ᴡᴀɪᴛ ʙᴧʙʏ...💋✨")
                 
         query = message.text.split(None, 1)[1]
             
@@ -275,7 +275,7 @@ async def skip(_, message: Message):
         ACTV_CALLS.append(int(x.chat_id))
     
     if chat_id not in ACTV_CALLS:
-        await message.reply_text("**ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ ɴᴏᴛʜɪɴɢ ɪs ᴘʟᴀʏɪɴɢ ᴛᴏ sᴋɪᴘ.**")
+        await message.reply_text("**ᴡᴧɪғᴜ ɴᴏᴛʜɪɴɢ ɪs ᴘʟᴀʏɪɴɢ ᴛᴏ sᴋɪᴘ.**")
     else:
         rq.task_done(chat_id)
         
@@ -288,7 +288,7 @@ async def skip(_, message: Message):
                         rq.get(chat_id)["file"],
                     ),
                 )
-            await message.reply_text("**ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ sᴋɪᴘᴘᴇᴅ ᴛʜᴇ sᴏɴɢ.**")
+            await message.reply_text("**ᴡᴧɪғᴜ sᴋɪᴘᴘᴇᴅ ᴛʜᴇ sᴏɴɢ.**")
 
 
 
@@ -335,9 +335,9 @@ async def pause(_, msg):
     chat_id = msg.chat.id
     if str(chat_id) in str(pytgcalls.active_calls):
         await pytgcalls.pause_stream(chat_id)
-        await msg.reply(f"ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ sᴜᴄᴄᴇssғᴜʟʟʏ ᴘᴀᴜsᴇᴅ\nᴘᴀᴜsᴇᴅ ʙʏ {msg.from_user.mention}")
+        await msg.reply(f"ᴡᴧɪғᴜ sᴜᴄᴄᴇssғᴜʟʟʏ ᴘᴀᴜsᴇᴅ\nᴘᴀᴜsᴇᴅ ʙʏ {msg.from_user.mention}")
     else:
-        await msg.reply(f"sᴏʀʀʏ {msg.from_user.mention}, ɪ ᴄᴀɴ'ᴛ ᴘᴀᴜsᴇᴅ ʙᴇᴄᴀᴜsᴇ ᴛʜᴇʀᴇ ɪs ɴᴏ ᴍᴜsɪᴄ ᴘʟᴀʏɪɴɢ ᴏɴ ᴛʜᴇ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ.")
+        await msg.reply(f"sᴏʀʀʏ ʙᴧʙʏ {msg.from_user.mention}, ɪ ᴄᴀɴ'ᴛ ᴘᴀᴜsᴇᴅ ʙᴇᴄᴀᴜsᴇ ᴛʜᴇʀᴇ ɪs ɴᴏ ᴍᴜsɪᴄ ᴘʟᴀʏɪɴɢ ᴏɴ ᴛʜᴇ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ.")
 
 # --------------------------------------------------------------------------------------------------------- #
 
@@ -348,9 +348,9 @@ async def resume(_, msg):
     chat_id = msg.chat.id
     if str(chat_id) in str(pytgcalls.active_calls):
         await pytgcalls.resume_stream(chat_id)
-        await msg.reply(f"ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ sᴜᴄᴄᴇssғᴜʟʟʏ ʀᴇsᴜᴍᴇ\nʀᴇsᴜᴍᴇᴅ ʙʏ {msg.from_user.mention}")
+        await msg.reply(f"ᴡᴧɪғᴜ sᴜᴄᴄᴇssғᴜʟʟʏ ʀᴇsᴜᴍᴇ\nʀᴇsᴜᴍᴇᴅ ʙʏ {msg.from_user.mention}")
     else:
-        await msg.reply(f"sᴏʀʀʏ {msg.from_user.mention}, ɪ ᴄᴀɴ'ᴛ ʀᴇsᴜᴍᴇ ʙᴇᴄᴀᴜsᴇ ᴛʜᴇʀᴇ ɪs ɴᴏ ᴍᴜsɪᴄ ᴘʟᴀʏɪɴɢ ᴏɴ ᴛʜᴇ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ.")
+        await msg.reply(f"sᴏʀʀʏ ʙᴧʙʏ {msg.from_user.mention}, ɪ ᴄᴀɴ'ᴛ ʀᴇsᴜᴍᴇ ʙᴇᴄᴀᴜsᴇ ᴛʜᴇʀᴇ ɪs ɴᴏ ᴍᴜsɪᴄ ᴘʟᴀʏɪɴɢ ᴏɴ ᴛʜᴇ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ.")
 
 
 # --------------------------------------------------------------------------------------------------------- #
@@ -362,9 +362,9 @@ async def stop(_, msg):
     chat_id = msg.chat.id
     if str(chat_id) in str(pytgcalls.active_calls):
         await pytgcalls.leave_group_call(chat_id)
-        await msg.reply(f"ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ sᴜᴄᴄᴇssғᴜʟʟʏ ᴇɴᴅᴇᴅ sᴏɴɢ\nᴇɴᴅᴇᴅ ʙʏ {msg.from_user.mention}")
+        await msg.reply(f"ᴡᴧɪғᴜ sᴜᴄᴄᴇssғᴜʟʟʏ ᴇɴᴅᴇᴅ sᴏɴɢ\nᴇɴᴅᴇᴅ ʙʏ {msg.from_user.mention}")
     else:
-        await msg.reply(f"sᴏʀʀʏ {msg.from_user.mention}, ɪ ᴄᴀɴ'ᴛ ᴇɴᴅ ᴍᴜsɪᴄ ʙᴇᴄᴀᴜsᴇ ɴᴏ ᴍᴜsɪᴄ ᴘʟᴀʏɪɴɢ ᴏɴ ᴛʜᴇ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ.")
+        await msg.reply(f"sᴏʀʀʏ ʙᴧʙʏ {msg.from_user.mention}, ɪ ᴄᴀɴ'ᴛ ᴇɴᴅ ᴍᴜsɪᴄ ʙᴇᴄᴀᴜsᴇ ɴᴏ ᴍᴜsɪᴄ ᴘʟᴀʏɪɴɢ ᴏɴ ᴛʜᴇ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ.")
 
 
 # --------------------------------------------------------------------------------------------------------- #
@@ -375,7 +375,7 @@ async def stop(_, msg):
 async def leavevc(_, msg):
     chat_id = msg.chat.id
     await pytgcalls.leave_group_call(chat_id)
-    await msg.reply(f"ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ sᴜᴄᴄᴇssғᴜʟʟʏ ʟᴇᴀᴠᴇ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ\nʟᴇᴀᴠᴇᴅ ʙʏ {msg.from_user.mention}",)
+    await msg.reply(f"ᴡᴧɪғᴜ sᴜᴄᴄᴇssғᴜʟʟʏ ʟᴇᴀᴠᴇ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ\nʟᴇᴀᴠᴇᴅ ʙʏ {msg.from_user.mention}",)
     
 
 # --------------------------------------------------------------------------------------------------------- #
