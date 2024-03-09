@@ -2,7 +2,7 @@ import pyrogram
 import time
 from pyrogram import filters
 from pyrogram import Client
-from Waifu import app
+from Waifu import waifu as app
 from config import SUDO_USERS as SUDOERS
 
 # Define the spam command handler
