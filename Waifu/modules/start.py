@@ -24,7 +24,7 @@ button = InlineKeyboardMarkup([
             InlineKeyboardButton("↯ ᴄᴏᴍᴍᴀɴᴅs ↯", callback_data="help_"),    
         ],
         [
-            InlineKeyboardButton("☆ ᴍʏ ʙᴧʙᴇ ☆", url=f"https://t.me/ll_anime_db_ll"),    
+            InlineKeyboardButton("☆ ᴍʏ ʙᴧʙᴇ ☆", url=f"https://t.me/ll_anime_dp_ll"),    
         ]
 ])
 
@@ -91,7 +91,7 @@ async def cb_handler(client, query):
                 InlineKeyboardButton("↯ ᴄᴏᴍᴍᴀɴᴅs ↯", callback_data="help_")
             ],
             [
-            InlineKeyboardButton("☆ ᴍʏ ʙᴧʙᴇ ☆", url=f"https://t.me/TheChampu"),    
+            InlineKeyboardButton("☆ ᴍʏ ʙᴧʙᴇ ☆", url=f"https://t.me/ll_ANIME_DP_ll"),    
             ]    
         ]
         reply_markup = InlineKeyboardMarkup(buttons)
