@@ -48,7 +48,7 @@ async def play(_, message):
     global useer    
     chat_id = message.chat.id  
     user_name = message.from_user.mention                
-    msg = await message.reply("🫦") 
+    msg = await message.reply("🔍") 
     try:
         user = await userbot.get_me()
         await _.get_chat_member(chat_id, user.id)
@@ -63,7 +63,7 @@ async def play(_, message):
         except UserAlreadyParticipant:            
             pass
         except Exception as e:
-            await msg.edit_text(f"**ᴘʟᴇᴀsᴇ ᴍᴀɴᴜᴀʟʟʏ ᴀᴅᴅ ᴀssɪsᴛᴀɴᴛ ᴏʀ ᴄᴏɴᴛᴀᴄᴛ [ᴄʜᴧᴍᴘᴜ](https://t.me/itsMeShivanshu)** ")
+            await msg.edit_text(f"**ᴘʟᴇᴀsᴇ ᴍᴀɴᴜᴀʟʟʏ ᴀᴅᴅ ᴀssɪsᴛᴀɴᴛ ᴏʀ ᴄᴏɴᴛᴀᴄᴛ [ᴀᴛᴏᴍɪᴄ](https://t.me/its_cute_babu)** ")
                             
     audio = ((message.reply_to_message.audio or message.reply_to_message.voice) if message.reply_to_message else None)
    
@@ -86,9 +86,7 @@ async def play(_, message):
     else:
         if len(message.command) < 2:
             await msg.edit_text("💌 **ᴜsᴀɢᴇ: /ᴘʟᴀʏ ɢɪᴠᴇ ᴀ ᴛɪᴛʟᴇ sᴏɴɢ ᴛᴏ ᴘʟᴀʏ ᴍᴜsɪᴄ.**")
-        else:
-            await msg.edit_text("ᴡᴀɪᴛ ʙᴧʙʏ...💋✨")
-                
+          
         query = message.text.split(None, 1)[1]
             
         try:
@@ -160,7 +158,7 @@ async def vplay(_, message):
     global useer    
     chat_id = message.chat.id  
     user_name = message.from_user.mention                
-    msg = await message.reply("🫦") 
+    msg = await message.reply("🔍") 
     try:
         user = await userbot.get_me()
         await _.get_chat_member(chat_id, user.id)
@@ -175,7 +173,7 @@ async def vplay(_, message):
         except UserAlreadyParticipant:            
             pass
         except Exception as e:
-            await msg.edit_text(f"**ᴘʟᴇᴀsᴇ ᴍᴀɴᴜᴀʟʟʏ ᴀᴅᴅ ᴀssɪsᴛᴀɴᴛ ᴏʀ ᴄᴏɴᴛᴀᴄᴛ [ᴄʜᴧᴍᴘᴜ](https://t.me/itsMeShivanshu)** ")
+            await msg.edit_text(f"**ᴘʟᴇᴀsᴇ ᴍᴀɴᴜᴀʟʟʏ ᴀᴅᴅ ᴀssɪsᴛᴀɴᴛ ᴏʀ ᴄᴏɴᴛᴀᴄᴛ [ᴀᴛᴏᴍɪᴄ](https://t.me/its_cute_babu)** ")
                             
     video = (message.reply_to_message.video if message.reply_to_message else None)
    
@@ -187,7 +185,7 @@ async def vplay(_, message):
 
         file_path = await message.reply_to_message.download()
         title = video.file_name 
-        link = "https://t.me/WaifuMusicBot"
+        link = "https://t.me/HOTX_CHAT_BOT"
         thumbnail = random.choice(local_thumb)
         duration = round(video.duration / 60)
         views = "Locally added"
