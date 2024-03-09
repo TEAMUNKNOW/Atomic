@@ -59,7 +59,7 @@ async def play(_, message):
             await msg.edit_text("**» ᴀᴅᴅ ᴍᴇ ᴀs ᴀᴅᴍɪɴ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ғɪʀsᴛ.**")
         try:
             await userbot.join_chat(invitelink)
-            await userbot.send_message(message.chat.id, text="** ✅ ᴀssɪsᴛᴀɴᴛ ᴊᴏɪɴᴇᴅ ᴛʜɪs ɢʀᴏᴜᴘ ғᴏʀ ᴘʟᴀʏ ᴍᴜsɪᴄ.**")
+            await userbot.send_message(message.chat.id, text="** ɪ ᴀᴍ ᴄᴏᴍɪɴɢ ʙᴀʙᴇ ғᴏʀ ғᴏʀ ᴘʟᴀʏ ᴍᴜsɪᴄ.**")
         except UserAlreadyParticipant:            
             pass
         except Exception as e:
@@ -128,7 +128,7 @@ async def play(_, message):
         position = await rq.put(chat_id, file=file_path)
         await message.reply_photo(
             photo="final.png",
-            caption=f"**➻ ᴛʀᴀᴄᴋ ᴀᴅᴅᴇᴅ ᴛᴏ ǫᴜᴇᴜᴇ » {position} **\n\n**​🏷️ ɴᴀᴍᴇ :**[{title[:15]}]({link})\n⏰** ᴅᴜʀᴀᴛɪᴏɴ :** `{duration}` **ᴍɪɴᴜᴛᴇs**\n👀 ** ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏᴇ : **{user_name}",
+            caption=f"**➻ ᴛʀᴀᴄᴋ ᴀᴅᴅᴇᴅ ᴛᴏ ǫᴜᴇᴜᴇ » {position} **\n\n**​💖 ɴᴀᴍᴇ :**[{title[:15]}]({link})\n🍒** ᴅᴜʀᴀᴛɪᴏɴ :** `{duration}` **ᴍɪɴᴜᴛᴇs**\n🥵 ** ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏᴇ : **{user_name}",
             reply_markup=keyboard,
         )
        
@@ -143,7 +143,7 @@ async def play(_, message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption=f"**➻ sᴛᴀʀᴇᴅ sᴛʀᴇᴀᴍɪɴɢ**\n**🏷️ ɴᴀᴍᴇ : **[{title[:15]}]({link})\n⏰ ** ᴅᴜʀᴀᴛɪᴏɴ :** `{duration}` ᴍɪɴᴜᴛᴇs\n👀 ** ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ : **{user_name}\n",
+            caption=f"**➻ sᴛᴀʀᴇᴅ sᴛʀᴇᴀᴍɪɴɢ**\n**💖 ɴᴀᴍᴇ : **[{title[:15]}]({link})\n🍒 ** ᴅᴜʀᴀᴛɪᴏɴ :** `{duration}` ᴍɪɴᴜᴛᴇs\n🥵 ** ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ : **{user_name}\n",
            )
 
     os.remove("final.png")
@@ -171,7 +171,7 @@ async def vplay(_, message):
             await msg.edit_text("**» ᴀᴅᴅ ᴍᴇ ʙᴧʙʏ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ғɪʀsᴛ.**")
         try:
             await userbot.join_chat(invitelink)
-            await userbot.send_message(message.chat.id, text="** ✅ ᴀssɪsᴛᴀɴᴛ ᴊᴏɪɴᴇᴅ ᴛʜɪs ɢʀᴏᴜᴘ ғᴏʀ ᴘʟᴀʏ ᴍᴜsɪᴄ.**")
+            await userbot.send_message(message.chat.id, text="** ɪ ᴀᴍ ᴄᴏᴍɪɴɢ ʙᴀʙᴇ ғᴏʀ ғᴏʀ ᴘʟᴀʏ ᴍᴜsɪᴄ.**")
         except UserAlreadyParticipant:            
             pass
         except Exception as e:
@@ -240,7 +240,7 @@ async def vplay(_, message):
         position = await rq.put(chat_id, file=file_path)
         await message.reply_photo(
             photo="final.png",
-            caption=f"**➻ ᴛʀᴀᴄᴋ ᴀᴅᴅᴇᴅ ᴛᴏ ǫᴜᴇᴜᴇ » {position} **\n\n**​🏷️ ɴᴀᴍᴇ :**[{title[:15]}]({link})\n⏰** ᴅᴜʀᴀᴛɪᴏɴ :** `{duration}` **ᴍɪɴᴜᴛᴇs**\n👀 ** ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏᴇ : **{user_name}",
+            caption=f"**➻ ᴛʀᴀᴄᴋ ᴀᴅᴅᴇᴅ ᴛᴏ ǫᴜᴇᴜᴇ » {position} **\n\n**​💖 ɴᴀᴍᴇ :**[{title[:15]}]({link})\n🍒** ᴅᴜʀᴀᴛɪᴏɴ :** `{duration}` **ᴍɪɴᴜᴛᴇs**\n🥵 ** ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ : **{user_name}",
             reply_markup=keyboard,
         )
        
@@ -253,7 +253,7 @@ async def vplay(_, message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption=f"**➻ sᴛᴀʀᴇᴅ sᴛʀᴇᴀᴍɪɴɢ**\n**🏷️ ɴᴀᴍᴇ : **[{title[:15]}]({link})\n⏰ ** ᴅᴜʀᴀᴛɪᴏɴ :** `{duration}` ᴍɪɴᴜᴛᴇs\n👀 ** ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ : **{user_name}\n",
+            caption=f"**➻ sᴛᴀʀᴇᴅ sᴛʀᴇᴀᴍɪɴɢ**\n**💖 ɴᴀᴍᴇ : **[{title[:15]}]({link})\n🍒 ** ᴅᴜʀᴀᴛɪᴏɴ :** `{duration}` ᴍɪɴᴜᴛᴇs\n🥵 ** ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ : **{user_name}\n",
            )
 
     os.remove("final.png")
@@ -323,7 +323,7 @@ async def join_userbot(_,msg):
   chat_id = msg.chat.id
   invitelink = await Waifu.export_chat_invite_link(chat_id)
   await userbot.join_chat(invitelink)
-  await msg.reply("**ᴀssɪsᴛᴀɴᴛ sᴜᴄᴄᴇssғᴜʟʟʏ ᴊᴏɪɴ.**")
+  await msg.reply("**ɪ ᴀᴍ sᴜᴄᴄᴇssғᴜʟʟʏ ᴊᴏɪɴᴇᴅ.**")
 
 
 # --------------------------------------------------------------------------------------------------------- #

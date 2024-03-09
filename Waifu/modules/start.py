@@ -23,7 +23,7 @@ button = InlineKeyboardMarkup([
         [
             InlineKeyboardButton("↯ ᴄᴏᴍᴍᴀɴᴅs ↯", callback_data="help_"),    
         ],
-                [
+        [
             InlineKeyboardButton("☆ ᴍʏ ʙᴧʙᴇ ☆", url=f"https://t.me/TheChampu"),    
         ]
 ])
@@ -89,6 +89,9 @@ async def cb_handler(client, query):
             ],
             [
                 InlineKeyboardButton("↯ ᴄᴏᴍᴍᴀɴᴅs ↯", callback_data="help_")
+            ],
+            [
+            InlineKeyboardButton("☆ ᴍʏ ʙᴧʙᴇ ☆", url=f"https://t.me/TheChampu"),    
             ]    
         ]
         reply_markup = InlineKeyboardMarkup(buttons)
