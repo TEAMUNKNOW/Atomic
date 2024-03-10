@@ -1,6 +1,7 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
+from config import SUDO_USERS as SUDOERS
 from Waifu import Waifu as app
 from Waifu.core.active import get_active_chats
 from Waifu.core.inline import close_key
