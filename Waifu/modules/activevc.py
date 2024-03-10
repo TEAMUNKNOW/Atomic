@@ -1,13 +1,12 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from config import SUDO_USERS as SUDOERS
 from Waifu import Waifu as app
 from Waifu.core.active import get_active_chats
 from Waifu.core.inline import close_key
 
 
-@app.on_message(filters.command("activevc") & SUDOERS)
+@app.on_message(filters.command("activevc"))
 async def activevc(_, message: Message):
     mystic = await message.reply_text("» ɢᴇᴛᴛɪɴɢ ᴀᴄᴛɪᴠᴇ ᴠᴏɪᴄᴇᴄʜᴀᴛs ʟɪsᴛ...")
     chats = await get_active_chats()
